@@ -1,48 +1,53 @@
 @import "_TourCard.variables";
 
-#paper {
-  margin: 15px 10px 10px 10px;
-  padding: 5px;
+#link {
+  cursor: pointer;
 
-  #card {
+  #paper {
+    margin: 15px 10px 10px 10px;
     padding: 5px;
-  }
   
-  #card2 {
-    padding: 5px;
-    display: $flex;
-  
-    #qbi2 {
-      width: 20px;
+    #card {
+      padding: 5px;
+    }
+    
+    #card2 {
+      padding: 5px;
+      display: $flex;
+    
+      #qbi2 {
+        width: 20px;
+      }
+    
+      #tpg2 {
+        margin-left: 5px;
+        margin-top: 2px;
+      }
     }
   
-    #tpg2 {
-      margin-left: 5px;
-      margin-top: 2px;
+    #box2 {
+      display: flex;
+  
+      #rating {
+        margin-left: 5px;
+        
+      }
+  
+      .caption_one {
+        margin-left: 5px;
+        font-weight: bold;
+        color: orange;
+      }
+  
+      .caption_two {
+        margin-left: 5px;
+      }
     }
-  }
-
-  #box2 {
-    display: flex;
-
-    #rating {
-      margin-left: 5px;
-      
-    }
-
-    .caption_one {
-      margin-left: 5px;
-      font-weight: bold;
-      color: orange;
-    }
-
-    .caption_two {
+  
+    .caption_three {
       margin-left: 5px;
     }
-  }
-
-  .caption_three {
-    margin-left: 5px;
   }
 }
+
 
